@@ -1,2 +1,3 @@
 # OCR-to-TEXT-in-Python
- An OCR to Text converter in Python using FastAPI is a web application that processes images to extract and convert text. FastAPI, known for its speed and ease of use, handles the API endpoints and request handling.
+ 
+An OCR to Text converter in Python using FastAPI is a web application that processes images to extract and convert text. FastAPI, known for its speed and ease of use, handles the API endpoints and request handling. The OCR (Optical Character Recognition) functionality can be powered by libraries such as Tesseract OCR or EasyOCR. When an image is uploaded via a POST request, the FastAPI server reads the image and passes it to the OCR library, which processes the image to extract text. The extracted text is then returned in the response. This setup allows for a scalable and efficient way to automate text extraction from images, useful for various applications like digitizing documents, extracting text from photos, and more.
